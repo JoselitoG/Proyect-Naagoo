@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Negro */
+    color: #f5f5f5; /* Blanco humo */
+}
+
+/* Encabezado */
+header {
+    background-color: #2c2c2c; /* Gris oscuro */
+    color: #f5f5f5; /* Blanco humo */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .LOGO img {
+    max-width: 100px;
+    border-radius: 50%;
+    display: flex;
+    box-align: left;
+    
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    position: center;
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: #f5f5f5; /* Blanco humo */
+    text-decoration: solid;
+}
+
+/* Submenú */
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #2c2c2c; /* Gris oscuro */
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    top: 100%;
+    left: 0;
+}
+
+header ul li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    margin: 5px 0;
+}
+
+.submenu li a {
+    color: #f5f5f5; /* Blanco humo */
+    text-decoration: none;
+}
+
+/* Sección Naagoo */
+section.Naagoo {
+    padding: 40px;
+}
+
+section.Naagoo .title {
+    color: #ffeb3b; /* Amarillo brillante */
+    text-align: center;
+}
+
+/* Contenedor de cajas */
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #2c2c2c; /* Gris oscuro */
+    border: 1px solid #424242; /* Gris */
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.box h3 {
+    color: #ffeb3b; /* Amarillo brillante */
+}
+
+/* Pie de página */
+footer.Pie-pagina {
+    background-color: #2c2c2c; /* Gris oscuro */
+    color: #f5f5f5; /* Blanco humo */
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
